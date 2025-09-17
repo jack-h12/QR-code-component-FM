@@ -1,3 +1,7 @@
+html {
+  font-size: 62.5%;
+}
+
 /* Reset default margin and center content */
 body {
   font-family: 'Outfit', sans-serif;
@@ -12,10 +16,10 @@ body {
 /* Card container */
 .card {
   background-color: white;
-  padding: 15px;
-  padding-bottom: 20px;
-  border-radius: 15px;
-  width: 260px;
+  padding: 1.5rem;
+  padding-bottom: 2rem;
+  border-radius: 1.5rem;
+  width: 26rem;
   text-align: center;
   box-shadow: 0 10px 15px rgba(0,0,0,0.1);
 }
@@ -23,18 +27,18 @@ body {
 /* QR code image */
 .card img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 /* Headline */
 .card h1 {
-  font-size: 20px;
+  font-size: 2rem;
   color: hsl(218, 44%, 22%);
-  margin: 15px 0;
+  margin: 1.5rem 0;
 }
 
 /* Description text */
 .card p {
-  font-size: 15px;
+  font-size: 1.5rem;
   color: hsl(220, 15%, 55%);
 }
