@@ -1,0 +1,40 @@
+/* Reset default margin and center content */
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Card container */
+.card {
+  background-color: white;
+  padding: 15px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  width: 260px;
+  text-align: center;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+/* QR code image */
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Headline */
+.card h1 {
+  font-size: 20px;
+  color: hsl(218, 44%, 22%);
+  margin: 15px 0;
+}
+
+/* Description text */
+.card p {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
